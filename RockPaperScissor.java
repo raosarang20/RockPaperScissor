@@ -16,6 +16,13 @@ public class RockPaperScissor {
 
         System.out.println("Computer Won!!!!!! You Lost!!!!!!#####");
     }
+    
+    public static void Tie(){
+        
+     System.out.println("Its a tie.");   
+    }    
+        
+        
 
 
     public static void main(String[] args) {
@@ -67,6 +74,24 @@ public class RockPaperScissor {
 
             UserLost();
         }
+        
+         else if((ComChoice==0)  && (str.equals("Rock"))){
+
+            Tie();
+        }
+        
+         else if((ComChoice==1)  && (str.equals("Paper"))){
+
+            Tie();
+        }
+        
+         else if((ComChoice==2)  && (str.equals("Scissor"))){
+
+            Tie();
+        }
+        
+        
+    
 
         else{
 
